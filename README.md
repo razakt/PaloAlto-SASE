@@ -27,11 +27,8 @@ brew install python
 The script relies on four specific "libraries" to handle the UI, the API, and the Excel formatting:
 
 Streamlit: Creates the web interface.
-
 Requests: Handles the communication with Palo Alto APIs.
-
 Pandas: Organizes the data into rows and columns.
-
 Openpyxl: Allows Python to write .xlsx files.
 
 3. Detailed Installation & Execution Steps
@@ -52,6 +49,7 @@ cd %USERPROFILE%\Desktop\sase_tool
 
 # Example for Mac
 cd ~/Desktop/sase_tool
+
 Step 4: Install Dependencies
 Copy and paste this command to install all required packages at once:
 
@@ -61,6 +59,7 @@ pip install streamlit requests pandas openpyxl
 
 # Mac
 pip3 install streamlit requests pandas openpyxl
+
 Step 5: Run the Script
 Launch the tool by running:
 
@@ -70,15 +69,13 @@ streamlit run app.py
 
 # Mac
 python3 -m streamlit run app.py
+
+
 4. How to Use the Tool
+
 Once you run the command, a browser tab will open at http://localhost:8501.
-
 Credentials: Enter your Client ID, Client Secret, and TSG ID.
-
 Select Action: * List Security Rules: Use this for your bulk export of all 900+ rules.
-
 Get Security Rule: Use this to look up a specific rule ID.
-
 Folder/Position: Ensure these match where your rules live (e.g., Folder: Mobile Users, Position: pre).
-
 Export: Click the button and wait for the "Download Excel" button to appear.
