@@ -1,6 +1,9 @@
-Setup Guide: Prisma SASE Policy Tool (Windows & Mac)
-This guide explains how to set up your environment, install the necessary software, and run the Python script to export your Palo Alto SASE policies. You can fetch all the Security Policies in Prisma Access, SCM managed firewall. 
+Setup Guide: Prisma SASE Policy Tool (Windows & macOS)
+------------------------------------------------------
 
+This document provides step-by-step instructions to configure your environment, install the required dependencies, and execute the Python script to export Palo Alto SASE policies. The tool enables retrieval of all Security Policies from Prisma Access and Strata Cloud Manager in a streamlined and efficient manner.
+
+-------------------------------------------------------
 1. Install Python
 Python is the engine that runs our script. You need Python 3.8 or higher.
 
